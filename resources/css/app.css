@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'vue-multiselect.css';
+@import 'vue-element-loading.css';
+@import 'v-tooltip.css';
+
+label.required::after {
+    content: '*';
+    color: rgba(220, 38, 38, var(--tw-text-opacity));
+    margin-left: 4px;
+}
+
+.item-extra-row {
+    border-top: none !important;
+}
+
+.headlessui-listbox-button {
+    height: 42px;
+}
+
+th.no-stretch {
+    width: 1%;
+    white-space: nowrap;
+}
